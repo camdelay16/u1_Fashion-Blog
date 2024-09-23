@@ -1,0 +1,92 @@
+html {
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-radius: 5px;
+}
+
+body{
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+img {
+    width: 100%;
+}
+
+.main-nav-bar, .footer-nav-bar {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    }
+
+.main-nav-bar {
+    justify-content: space-between;
+    color: lightgray;
+    font-size: 20px;
+
+    }
+
+.footer-nav-bar {
+    color: tomato;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color:lightgray;
+}
+
+#footer-nav-end {
+    border: none;
+}
+
+.blog-post {
+    font-size: 40px;
+}
+
+.continue-link {
+    color: tomato;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-width: 1px;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+font-size: 5rem;
+color: lightgray;
+}
+
+h4, time {
+    color: lightgray
+}
+
+time {
+    font-size: 30px;
+}
